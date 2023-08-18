@@ -37,7 +37,7 @@ If you have problems building for arm64 please uninstall MacPorts (see [#28](htt
 * <https://x2on.github.io/2010/07/13/tutorial-iphone-app-with-compiled-openssl-1-0-0a-library/>
 
 ## Changelog
-* 2023-08-18: SwiftUI sample
+* 2023-08-18: Replacing UIKit sample app with SwiftUI one
 * 2023-07-04: OpenSSL 1.1.1u
 * 2023-02-09: OpenSSL 1.1.1t
 * 2023-01-10: Xcode 14.2 support, iOS 16.2 support, SHA512 Example

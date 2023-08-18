@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0029A5582A8FF4B500978A75 /* OpenSSL-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0029A5572A8FF4B500978A75 /* OpenSSL-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0029A5612A8FF4B600978A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0029A5602A8FF4B600978A75 /* Assets.xcassets */; };
+		0029A5642A8FF4B600978A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0029A5632A8FF4B600978A75 /* Preview Assets.xcassets */; };
+		0072F9A32A8FF4F500AC1EF4 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */; };
+		0072F9A42A8FF4F500AC1EF4 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0072F9A62A8FF51F00AC1EF4 /* OpenSSL_multiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6409B2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift */; };
+		0072F9A72A8FF52900AC1EF4 /* FSOpenSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B640B02A8EC46800AAF2F4 /* FSOpenSSL.m */; };
+		0072F9A82A8FF52B00AC1EF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6409D2A8EBC1000AAF2F4 /* ContentView.swift */; };
+		00B6409C2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6409B2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift */; };
+		00B6409E2A8EBC1000AAF2F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6409D2A8EBC1000AAF2F4 /* ContentView.swift */; };
+		00B640A02A8EBC1200AAF2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B6409F2A8EBC1200AAF2F4 /* Assets.xcassets */; };
+		00B640A32A8EBC1200AAF2F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B640A22A8EBC1200AAF2F4 /* Preview Assets.xcassets */; };
+		00B640AB2A8EC32E00AAF2F4 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */; };
+		00B640AC2A8EC32E00AAF2F4 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00B640B12A8EC46800AAF2F4 /* FSOpenSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B640B02A8EC46800AAF2F4 /* FSOpenSSL.m */; };
+		00B640F22A8FAE1F00AAF2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B640F12A8FAE1F00AAF2F4 /* Assets.xcassets */; };
+		00B640F52A8FAE1F00AAF2F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B640F42A8FAE1F00AAF2F4 /* Preview Assets.xcassets */; };
+		00B640FA2A8FAE8C00AAF2F4 /* FSOpenSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B640B02A8EC46800AAF2F4 /* FSOpenSSL.m */; };
+		00B640FB2A8FAE8F00AAF2F4 /* OpenSSL_multiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6409B2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift */; };
+		00B640FC2A8FAE9200AAF2F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6409D2A8EBC1000AAF2F4 /* ContentView.swift */; };
+		00B640FD2A8FAED800AAF2F4 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */; };
+		00B640FE2A8FAED800AAF2F4 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0029A5592A8FF4B500978A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B640902A8EBC1000AAF2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0029A5562A8FF4B500978A75;
+			remoteInfo = "OpenSSL-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0029A5682A8FF4B600978A75 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0029A5582A8FF4B500978A75 /* OpenSSL-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0072F9A52A8FF4F500AC1EF4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0072F9A42A8FF4F500AC1EF4 /* OpenSSL.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640AD2A8EC32E00AAF2F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00B640AC2A8EC32E00AAF2F4 /* OpenSSL.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640E02A8ED59900AAF2F4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640FF2A8FAED800AAF2F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00B640FE2A8FAED800AAF2F4 /* OpenSSL.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0029A5522A8FF4B500978A75 /* OpenSSL-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenSSL-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029A5572A8FF4B500978A75 /* OpenSSL-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenSSL-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029A5602A8FF4B600978A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0029A5632A8FF4B600978A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00B640982A8EBC1000AAF2F4 /* OpenSSL-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenSSL-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B6409B2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSSL_multiplatformApp.swift; sourceTree = "<group>"; };
+		00B6409D2A8EBC1000AAF2F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00B6409F2A8EBC1200AAF2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B640A22A8EBC1200AAF2F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = ../OpenSSL.xcframework; sourceTree = "<group>"; };
+		00B640AE2A8EC46700AAF2F4 /* OpenSSL-multiplatform-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenSSL-multiplatform-Bridging-Header.h"; sourceTree = "<group>"; };
+		00B640AF2A8EC46800AAF2F4 /* FSOpenSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOpenSSL.h; sourceTree = "<group>"; };
+		00B640B02A8EC46800AAF2F4 /* FSOpenSSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOpenSSL.m; sourceTree = "<group>"; };
+		00B640EB2A8FAE1E00AAF2F4 /* OpenSSL-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenSSL-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B640F12A8FAE1F00AAF2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B640F42A8FAE1F00AAF2F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00B640F62A8FAE1F00AAF2F4 /* OpenSSL_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenSSL_mac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0029A5542A8FF4B500978A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0072F9A32A8FF4F500AC1EF4 /* OpenSSL.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640952A8EBC1000AAF2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B640AB2A8EC32E00AAF2F4 /* OpenSSL.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640E82A8FAE1E00AAF2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B640FD2A8FAED800AAF2F4 /* OpenSSL.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0029A55B2A8FF4B500978A75 /* OpenSSL-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0029A5602A8FF4B600978A75 /* Assets.xcassets */,
+				0029A5622A8FF4B600978A75 /* Preview Content */,
+			);
+			path = "OpenSSL-watch Watch App";
+			sourceTree = "<group>";
+		};
+		0029A5622A8FF4B600978A75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0029A5632A8FF4B600978A75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00B6408F2A8EBC1000AAF2F4 = {
+			isa = PBXGroup;
+			children = (
+				00B6409A2A8EBC1000AAF2F4 /* OpenSSL-ios */,
+				00B640EC2A8FAE1E00AAF2F4 /* OpenSSL-mac */,
+				0029A55B2A8FF4B500978A75 /* OpenSSL-watch Watch App */,
+				00B640992A8EBC1000AAF2F4 /* Products */,
+				00B640A92A8EC32D00AAF2F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00B640992A8EBC1000AAF2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B640982A8EBC1000AAF2F4 /* OpenSSL-ios.app */,
+				00B640EB2A8FAE1E00AAF2F4 /* OpenSSL-mac.app */,
+				0029A5522A8FF4B500978A75 /* OpenSSL-watch.app */,
+				0029A5572A8FF4B500978A75 /* OpenSSL-watch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B6409A2A8EBC1000AAF2F4 /* OpenSSL-ios */ = {
+			isa = PBXGroup;
+			children = (
+				00B640AF2A8EC46800AAF2F4 /* FSOpenSSL.h */,
+				00B640B02A8EC46800AAF2F4 /* FSOpenSSL.m */,
+				00B6409B2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift */,
+				00B6409D2A8EBC1000AAF2F4 /* ContentView.swift */,
+				00B6409F2A8EBC1200AAF2F4 /* Assets.xcassets */,
+				00B640A12A8EBC1200AAF2F4 /* Preview Content */,
+				00B640AE2A8EC46700AAF2F4 /* OpenSSL-multiplatform-Bridging-Header.h */,
+			);
+			path = "OpenSSL-ios";
+			sourceTree = "<group>";
+		};
+		00B640A12A8EBC1200AAF2F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00B640A22A8EBC1200AAF2F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00B640A92A8EC32D00AAF2F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B640AA2A8EC32E00AAF2F4 /* OpenSSL.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00B640EC2A8FAE1E00AAF2F4 /* OpenSSL-mac */ = {
+			isa = PBXGroup;
+			children = (
+				00B640F12A8FAE1F00AAF2F4 /* Assets.xcassets */,
+				00B640F62A8FAE1F00AAF2F4 /* OpenSSL_mac.entitlements */,
+				00B640F32A8FAE1F00AAF2F4 /* Preview Content */,
+			);
+			path = "OpenSSL-mac";
+			sourceTree = "<group>";
+		};
+		00B640F32A8FAE1F00AAF2F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00B640F42A8FAE1F00AAF2F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0029A5512A8FF4B500978A75 /* OpenSSL-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0029A5692A8FF4B600978A75 /* Build configuration list for PBXNativeTarget "OpenSSL-watch" */;
+			buildPhases = (
+				0029A5502A8FF4B500978A75 /* Resources */,
+				0029A5682A8FF4B600978A75 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0029A55A2A8FF4B500978A75 /* PBXTargetDependency */,
+			);
+			name = "OpenSSL-watch";
+			productName = "OpenSSL-watch";
+			productReference = 0029A5522A8FF4B500978A75 /* OpenSSL-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0029A5562A8FF4B500978A75 /* OpenSSL-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0029A5652A8FF4B600978A75 /* Build configuration list for PBXNativeTarget "OpenSSL-watch Watch App" */;
+			buildPhases = (
+				0029A5532A8FF4B500978A75 /* Sources */,
+				0029A5542A8FF4B500978A75 /* Frameworks */,
+				0029A5552A8FF4B500978A75 /* Resources */,
+				0072F9A52A8FF4F500AC1EF4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-watch Watch App";
+			productName = "OpenSSL-watch Watch App";
+			productReference = 0029A5572A8FF4B500978A75 /* OpenSSL-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00B640972A8EBC1000AAF2F4 /* OpenSSL-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B640A62A8EBC1200AAF2F4 /* Build configuration list for PBXNativeTarget "OpenSSL-ios" */;
+			buildPhases = (
+				00B640942A8EBC1000AAF2F4 /* Sources */,
+				00B640952A8EBC1000AAF2F4 /* Frameworks */,
+				00B640962A8EBC1000AAF2F4 /* Resources */,
+				00B640AD2A8EC32E00AAF2F4 /* Embed Frameworks */,
+				00B640E02A8ED59900AAF2F4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-ios";
+			productName = "OpenSSL-ios";
+			productReference = 00B640982A8EBC1000AAF2F4 /* OpenSSL-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00B640EA2A8FAE1E00AAF2F4 /* OpenSSL-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B640F72A8FAE1F00AAF2F4 /* Build configuration list for PBXNativeTarget "OpenSSL-mac" */;
+			buildPhases = (
+				00B640E72A8FAE1E00AAF2F4 /* Sources */,
+				00B640E82A8FAE1E00AAF2F4 /* Frameworks */,
+				00B640E92A8FAE1E00AAF2F4 /* Resources */,
+				00B640FF2A8FAED800AAF2F4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-mac";
+			productName = "OpenSSL-mac";
+			productReference = 00B640EB2A8FAE1E00AAF2F4 /* OpenSSL-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B640902A8EBC1000AAF2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0029A5512A8FF4B500978A75 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0029A5562A8FF4B500978A75 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					00B640972A8EBC1000AAF2F4 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+					00B640EA2A8FAE1E00AAF2F4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 00B640932A8EBC1000AAF2F4 /* Build configuration list for PBXProject "OpenSSL-multiplatform" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B6408F2A8EBC1000AAF2F4;
+			productRefGroup = 00B640992A8EBC1000AAF2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B640972A8EBC1000AAF2F4 /* OpenSSL-ios */,
+				00B640EA2A8FAE1E00AAF2F4 /* OpenSSL-mac */,
+				0029A5562A8FF4B500978A75 /* OpenSSL-watch Watch App */,
+				0029A5512A8FF4B500978A75 /* OpenSSL-watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0029A5502A8FF4B500978A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029A5552A8FF4B500978A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0029A5642A8FF4B600978A75 /* Preview Assets.xcassets in Resources */,
+				0029A5612A8FF4B600978A75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640962A8EBC1000AAF2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B640A32A8EBC1200AAF2F4 /* Preview Assets.xcassets in Resources */,
+				00B640A02A8EBC1200AAF2F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640E92A8FAE1E00AAF2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B640F52A8FAE1F00AAF2F4 /* Preview Assets.xcassets in Resources */,
+				00B640F22A8FAE1F00AAF2F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0029A5532A8FF4B500978A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0072F9A62A8FF51F00AC1EF4 /* OpenSSL_multiplatformApp.swift in Sources */,
+				0072F9A82A8FF52B00AC1EF4 /* ContentView.swift in Sources */,
+				0072F9A72A8FF52900AC1EF4 /* FSOpenSSL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640942A8EBC1000AAF2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B6409E2A8EBC1000AAF2F4 /* ContentView.swift in Sources */,
+				00B6409C2A8EBC1000AAF2F4 /* OpenSSL_multiplatformApp.swift in Sources */,
+				00B640B12A8EC46800AAF2F4 /* FSOpenSSL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B640E72A8FAE1E00AAF2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B640FA2A8FAE8C00AAF2F4 /* FSOpenSSL.m in Sources */,
+				00B640FB2A8FAE8F00AAF2F4 /* OpenSSL_multiplatformApp.swift in Sources */,
+				00B640FC2A8FAE9200AAF2F4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0029A55A2A8FF4B500978A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0029A5562A8FF4B500978A75 /* OpenSSL-watch Watch App */;
+			targetProxy = 0029A5592A8FF4B500978A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0029A5662A8FF4B600978A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSSL-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenSSL-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenSSL-ios/OpenSSL-multiplatform-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		0029A5672A8FF4B600978A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSSL-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenSSL-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenSSL-ios/OpenSSL-multiplatform-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		0029A56A2A8FF4B600978A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenSSL-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0029A56B2A8FF4B600978A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenSSL-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00B640A42A8EBC1200AAF2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00B640A52A8EBC1200AAF2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B640A72A8EBC1200AAF2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSSL-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenSSL-ios/OpenSSL-multiplatform-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B640A82A8EBC1200AAF2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSSL-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenSSL-ios/OpenSSL-multiplatform-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00B640F82A8FAE1F00AAF2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OpenSSL-mac/OpenSSL_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSSL-mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenSSL-ios/OpenSSL-multiplatform-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00B640F92A8FAE1F00AAF2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OpenSSL-mac/OpenSSL_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSSL-mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U634G43L4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.df.OpenSSL-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenSSL-ios/OpenSSL-multiplatform-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0029A5652A8FF4B600978A75 /* Build configuration list for PBXNativeTarget "OpenSSL-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0029A5662A8FF4B600978A75 /* Debug */,
+				0029A5672A8FF4B600978A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0029A5692A8FF4B600978A75 /* Build configuration list for PBXNativeTarget "OpenSSL-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0029A56A2A8FF4B600978A75 /* Debug */,
+				0029A56B2A8FF4B600978A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B640932A8EBC1000AAF2F4 /* Build configuration list for PBXProject "OpenSSL-multiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B640A42A8EBC1200AAF2F4 /* Debug */,
+				00B640A52A8EBC1200AAF2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B640A62A8EBC1200AAF2F4 /* Build configuration list for PBXNativeTarget "OpenSSL-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B640A72A8EBC1200AAF2F4 /* Debug */,
+				00B640A82A8EBC1200AAF2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B640F72A8FAE1F00AAF2F4 /* Build configuration list for PBXNativeTarget "OpenSSL-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B640F82A8FAE1F00AAF2F4 /* Debug */,
+				00B640F92A8FAE1F00AAF2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B640902A8EBC1000AAF2F4 /* Project object */;
+}
